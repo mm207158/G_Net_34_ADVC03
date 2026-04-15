@@ -42,6 +42,49 @@ namespace G_Net_34_ADVC03
             #endregion
             #endregion
 
+            #region Exercise 2: Leaderboard 
+            #region Q1
+
+            SortedList<int, string> leaderBoard = new SortedList<int, string>()
+            {
+                [500] = "Ahmed",
+                [200] = "Sara",
+                [800] = "Ali",
+                [350] = "Mona",
+
+            };
+            #endregion
+            #region Q2
+            //foreach (var item in leaderBoard)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            ////or
+            //ConsoleHelper.PrintCollection("LeaderBoard", leaderBoard); 
+            #endregion
+
+            #region Q3
+            //Console.WriteLine(leaderBoard.Keys[0]); 
+            #endregion
+            #region Q4
+            //Console.WriteLine(leaderBoard.Values[0]);
+            #endregion
+            #region Q5
+            // Console.WriteLine(leaderBoard.ContainsKey(500));
+            #endregion
+            #region Q6
+            //if (leaderBoard.TryGetValue(999, out string? palyer))
+            //{
+            //    Console.WriteLine(palyer);
+            //}
+            //else { Console.WriteLine("Not Found"); } 
+            #endregion
+            #region Q7
+            //leaderBoard.Remove(200);
+            //ConsoleHelper.PrintCollection("LeaderBoard After Update", leaderBoard);
+            #endregion
+
+            #endregion
         }
     }
 }
