@@ -85,6 +85,65 @@ namespace G_Net_34_ADVC03
             #endregion
 
             #endregion
+
+            #region Exercise 3: Phone Book
+            #region Q1
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+
+            #endregion
+            #region Q2
+            //phoneBook.Add("mariam", "01099523475");
+            //phoneBook.Add("fatma", "01149523455");
+            //phoneBook.Add("mohammed", "0154942344");
+            //phoneBook.Add("sara", "0124942354");
+            #endregion
+            #region Q3
+            //try
+            //{
+            //    phoneBook.Add("sara", "0124942354");
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    Console.WriteLine($"this is Exception  :  [{ex}]");
+            //}
+
+            #endregion
+            #region Q4
+            //if (phoneBook.TryAdd("sara", "011234675"))
+            //{
+            //    Console.WriteLine("Succedd Adding");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Faild  to Add");
+            //}
+
+            #endregion
+
+            #region Q5
+            //string searchKey = "mayada";
+            //if (phoneBook.ContainsKey(searchKey))
+            //{
+            //    Console.WriteLine(phoneBook[searchKey]);
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{searchKey} is not found in the collection");
+            //}
+
+            #endregion
+
+            #region Q6
+            //Console.WriteLine(phoneBook.GetValueOrDefault("Amira","Not Found ")); 
+
+            #endregion
+            #region Q7
+
+            //Console.WriteLine("Keys : "+string.Join(", ",phoneBook.Keys));
+            //Console.WriteLine("Values : "+string.Join(", ",phoneBook.Values));
+            #endregion
+            #endregion
         }
     }
 }
