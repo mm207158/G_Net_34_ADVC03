@@ -144,6 +144,44 @@ namespace G_Net_34_ADVC03
             //Console.WriteLine("Values : "+string.Join(", ",phoneBook.Values));
             #endregion
             #endregion
+
+            #region Exercise 4: Unique Email Validator
+            #region Q1
+            HashSet<string> emailValidator = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+
+            #endregion
+            #region Q2
+            //emailValidator.Add("ahmed@test.com");
+            //emailValidator.Add("AHMED@test.com");
+            //emailValidator.Add("sara@test.com");
+            //emailValidator.Add("Sara@Test.Com");
+            #endregion
+            #region Q3
+            //Console.WriteLine(emailValidator.Count);// count is 2 becuase there is
+            //dublication Because of StringComparer.OrdinalIgnoreCase that ignore caseSesnsitive  and HashSet prevent Duplication
+            #endregion
+            #region Q4,Q5
+            //var setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //var setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+            //var union = new HashSet<int>(setA);
+            //union.UnionWith(setB);
+            //Console.WriteLine($"UnionWith A union B = {{ {string.Join(", ", union)} }}");
+            //var intersect = new HashSet<int>(setA);
+            //union.Intersect(setB);
+            //Console.WriteLine($"Intersect A intersect B ={{{string.Join(", ",intersect)}}}");
+            //var except = new HashSet<int>(setA);
+            //except.ExceptWith(setB);
+            //Console.WriteLine($"Intersect A Except B ={{{string.Join(", ",except)}}}");
+
+            #endregion
+            #region Q6
+            //var small = new HashSet<int> { 1, 2 };
+            //bool isSubset = small.IsSubsetOf(setA);
+            //Console.WriteLine($"  {{1, 2}}.IsSubsetOf(Set A) = {isSubset}");
+            #endregion
+
+            #endregion
         }
     }
 }
