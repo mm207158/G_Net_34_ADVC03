@@ -227,6 +227,53 @@ namespace G_Net_34_ADVC03
             #endregion
 
             #region Exercise 6: Browser History (Undo)
+            //Console.WriteLine("========================================");
+            //Console.WriteLine("   Exercise 6: Browser History (Undo)");
+            //Console.WriteLine("========================================\n");
+
+            //// Create a Stack and push 5 URLs
+            //Stack<string> browserHistory = new Stack<string>();
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+
+            //// Step 1: Show history after pushing (displayed top → bottom)
+            //Console.WriteLine(" Step 1: Browser History (most recent on top) ---");
+            //Console.WriteLine($"Count: {browserHistory.Count}");
+            //foreach (string url in browserHistory)
+            //    Console.WriteLine($"  • {url}");
+
+            //// Step 2: Peek at current page
+            //Console.WriteLine(" Step 2: Peek (Current Page) ---");
+            //string currentPage = browserHistory.Peek();
+            //Console.WriteLine($"Current page: \"{currentPage}\" (stack unchanged, Count: {browserHistory.Count})");
+
+            //// Step 3: Press "Back" 3 times
+            //Console.WriteLine("Step 3: Pressing Back 3 Times ---");
+            //for (int i = 1; i <= 3; i++)
+            //{
+            //    string leaving = browserHistory.Pop();
+            //    Console.WriteLine($"Back #{i} — Leaving: {leaving}");
+            //}
+
+            //// Step 4: Current page after going back
+            //Console.WriteLine(" Step 4: Current Page After Going Back ---");
+            //Console.WriteLine($"Current page now: \"{browserHistory.Peek()}\"  (Count: {browserHistory.Count})");
+
+            //// Step 5: Pop the remaining pages, then TryPop on an empty stack
+            //Console.WriteLine("Step 5: TryPop on Empty Stack ---");
+            //// Clear the remaining pages first
+            //while (browserHistory.Count > 0)
+            //    browserHistory.Pop();
+
+            //Console.WriteLine($"Stack emptied. Count: {browserHistory.Count}");
+            //bool popped = browserHistory.TryPop(out string poppedUrl);
+            //if (popped)
+            //    Console.WriteLine($"Popped: {poppedUrl}");
+            //else
+            //    Console.WriteLine($"TryPop returned: false  →  Stack is empty, no exception thrown.");
 
             #endregion
         }
