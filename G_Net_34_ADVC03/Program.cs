@@ -182,6 +182,53 @@ namespace G_Net_34_ADVC03
             #endregion
 
             #endregion
+
+            #region Exercise 5: Print Queue Simulator
+            //Console.WriteLine("========================================");
+            //Console.WriteLine("   Exercise 5: Print Queue Simulator");
+            //Console.WriteLine("========================================\n");
+
+            //// Create a Queue and enqueue 5 documents
+            //Queue<string> printQueue = new Queue<string>();
+            //printQueue.Enqueue("Report.pdf");
+            //printQueue.Enqueue("Invoice.pdf");
+            //printQueue.Enqueue("Letter.docx");
+            //printQueue.Enqueue("Resume.pdf");
+            //printQueue.Enqueue("Photo.jpg");
+
+            //// Step 1: Print queue contents and count
+            //Console.WriteLine("--- Step 1: Queue Contents ---");
+            //Console.WriteLine($"Count: {printQueue.Count}");
+            //Console.WriteLine("Documents in queue (front → back):");
+            //foreach (string doc in printQueue)
+            //    Console.WriteLine($"  • {doc}");
+
+            //// Step 2: Peek at the next document
+            //Console.WriteLine("\n--- Step 2: Peek ---");
+            //string nextDoc = printQueue.Peek();
+            //Console.WriteLine($"Next document to print: \"{nextDoc}\" (queue unchanged, Count: {printQueue.Count})");
+
+            //// Step 3: Dequeue and process each document
+            //Console.WriteLine("\n--- Step 3: Processing Queue ---");
+            //while (printQueue.Count > 0)
+            //{
+            //    string doc = printQueue.Dequeue();
+            //    Console.WriteLine($"Printing: {doc}");
+            //}
+            //Console.WriteLine("All documents printed!");
+
+            //// Step 4: TryDequeue on an empty queue
+            //Console.WriteLine("\n--- Step 4: TryDequeue on Empty Queue ---");
+            //bool success = printQueue.TryDequeue(out string result);
+            //if (success)
+            //    Console.WriteLine($"Dequeued: {result}");
+            //else
+            //    Console.WriteLine($"TryDequeue returned: false  →  Queue is empty, no exception thrown.");
+            #endregion
+
+            #region Exercise 6: Browser History (Undo)
+
+            #endregion
         }
     }
 }
